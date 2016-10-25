@@ -16,21 +16,23 @@
 | $ ctrl鍵+l            |清畫面|
 | $ tab鍵               |可自動列出未打完的資料夾檔案名稱|
 
-###Commit
+####Commit
+在你的 程式庫repository 中建立一個新檔案，新增一些內容到那個檔案並且將那些修改 提交commit 到 Git 中。
 .gitignore 則是要忽略的檔案清單，這是用來告訴 Git，當在做版本控制記錄的時候，不要理會這些檔案。例如，當某個檔案中包含密碼的時候，我們就不希望 Git 記錄它們下來。
 
 |指令|說明|
 | ------| ------ | ------ |
+| $ touch \<FILENAME>   |產生檔案|
 | $ git init            |為一個資料夾加上 Git 功能|
 | $ git status          |檢查 程式庫repository 中的修改 現況status|
 | $ git diff            |查看對檔案的修改|
 | $ git add \<FILENAME> |準備 提交commit 對於一個檔案的修改到tracked區|
 | $ git add .           |準備 提交commit 對於所有檔案的修改到tracked區|
-| $ git commit -m "\<your commit message>" |提交commit(或儲存）您所準備好的修改並附上一個簡短的異動說明|
-| $ touch \<FILENAME>   |產生檔案|
-| $ git log |看commit內容|
 | $ echo "\<FILENAME>" >> .gitignore       |將檔案列入忽略的檔案清單|
+| $ git commit -m "\<your commit message>" |不用進VI,在命令列提交commit(或儲存）您所準備好的修改並附上一個簡短的異動說明|
+| $ git log |看commit內容|
 | $ git commit          |進入VI編輯訊息|
+| $ vi \<FILENAME>      |進入該檔案的VI編輯訊息|
 
 |VI狀態|進入鍵|說明|
 | ------| ------ | ------ |
@@ -39,16 +41,15 @@
 
 
 
-###Remote Control 遠端
+####Remote Control 遠端
 把電腦裡的程式庫repository 和 遠端remote的程式庫repository連結起來，並 推送push 電腦上的修改。     
 每一個 遠端remote 都需要一個名字。而最主要、原始的那一個，通常都是叫做 origin。   
 系統會預設一個名稱給最初的 分支branch，通常就會叫做 'master'。 
 
 |指令|說明|
 | ------| ------ | ------ |
-| $ git remote add \<REMOTENAME> \       | 新增 遠端remote 連結  EX:$ git remote add origin \<URLFROMGITHUB> |
-| $ git remote set-url \<REMOTENAME>     | 幫一個 遠端remote 設定位址|
-| $ git pull \<REMOTENAME> \<BRANCHNAME> | 收取Pull 遠端remote 的程式 EX: $ git pull origin master|
-| $ git remote -v                        | 看你有哪些 遠端remote 連結|
-| $ git push \<REMOTENAME>               | 推送Push 電腦上的程式到 遠端remote  EX: $ git push origin master|
+| $ git remote add \<REMOTENAME> 網址http://    | 新增 遠端remote 連結  EX:$ git remote add origin \<URLFROMGITHUB> |
+| $ git pull \<REMOTENAME> \<BRANCHNAME>        | 收取Pull 遠端remote 的程式 EX: $ git pull origin master|
+| $ git remote -v                               | 看你有哪些 遠端remote 連結|
+| $ git push \<REMOTENAME> \<BRANCHNAME>        | 推送Push 電腦上的程式到 遠端remote  EX: $ git push origin master|
 
