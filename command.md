@@ -48,7 +48,7 @@
 
 |指令|說明|
 | ------| ------ | ------ |
-| $ git remote add \<REMOTENAME> 網址http://    | 新增 遠端remote 連結  EX:$ git remote add origin \<URLFROMGITHUB> |
+| $ git remote add \<REMOTENAME> URL or SSH     | 新增 遠端remote 連結  EX:$ git remote add origin \<URLFROMGITHUB> |
 | $ git pull \<REMOTENAME> \<BRANCHNAME>        | 收取Pull 遠端remote 的程式 EX: $ git pull origin master|
 | $ git remote -v                               | 看你有哪些 遠端remote 連結|
 | $ git push \<REMOTENAME> \<BRANCHNAME>        | 推送Push 電腦上的程式到 遠端remote  EX: $ git push origin master|
