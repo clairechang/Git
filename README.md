@@ -12,14 +12,10 @@
 
 ####Git工作流程
 
-![Git工作流程](http://static4.ithome.com.tw/sites/default/files/images/708-%E5%B0%81%E9%9D%A2-P29-600-1.png)
-
-
 當開發者要建立一個開發專案時，要為這個專案建立一個目錄，以及使用git init指令建立一個這個專案的儲存庫（Repository ）。這個目錄可稱為是這個專案的工作目錄（Working Directory），開發專案所有的檔案都儲存在這個目錄下，而執行與專案相關的Git指令，也都是在工作目錄下執行。而下達建立儲存庫的指令後，則是會在這個工作目錄下建立一個.git資料目錄，來儲存所有版本變更需要的資訊。
 另外，Git還會在.git目錄下建立一個名稱為index的索引檔案，作為記錄專案所有檔案的處理狀態。
 
-
-
+![Git工作流程](http://static4.ithome.com.tw/sites/default/files/images/708-%E5%B0%81%E9%9D%A2-P29-600-1.png)
 
 
 ####專案分版手法：Clone和Fork
