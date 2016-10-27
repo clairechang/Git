@@ -23,6 +23,7 @@
 |指令|說明|
 | ------| ------ |
 | $ touch \<FILENAME>   |產生檔案|
+| $ rm \<FILENAME>      |刪除檔案|
 | $ git init            |為一個資料夾加上 Git 功能|
 | $ git status          |檢查 程式庫repository 中的修改 現況status|
 | $ git diff            |查看對檔案的修改|
