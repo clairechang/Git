@@ -34,13 +34,13 @@
 | $ git log             |看commit內容|
 | $ git commit          |進入VI編輯訊息|
 | $ vi \<FILENAME>      |進入該檔案的VI編輯訊息|
+| $ vi .git/config      |進入.git中的設定檔的VI編輯訊息|
 
 |VI狀態|進入鍵|說明|
 | ------| ------ | ------ |
 |VI輸入狀態|按i進入Insert|左下角顯示Insert|
 |VI命令狀態|按ESC鍵|:wq 表示存檔離開|
-
-
+|VI命令狀態|按ESC鍵|游標放在指定行,按dd表示可刪除一行|
 
 ####Remote Control 遠端
 把電腦裡的程式庫repository 和 遠端remote的程式庫repository連結起來，並 推送push 電腦上的修改。     
