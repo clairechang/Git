@@ -39,3 +39,4 @@ Pull Request則是更主動地要求第三方開發者納入自己開發的程�
 - ihower 的 Git 教室<https://ihower.tw/git/>
 - 好麻煩部落客<http://gogojimmy.net/2012/01/17/how-to-use-git-1-git-basic/>
 - Git-it <http://jlord.us/git-it/index-zhtw.html>
+- Git <https://zlargon.gitbooks.io/git-tutorial/content/>
