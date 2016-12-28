@@ -32,6 +32,8 @@
 | $ echo "\<FILENAME>" >> .gitignore       |將檔案列入忽略的檔案清單|
 | $ git commit -m "\<your commit message>" |不用進VI,在命令列提交commit(或儲存）您所準備好的修改並附上一個簡短的異動說明|
 | $ git log             |看commit內容|
+| $ git shortlog        |列出每看人執行commit的次數和說明|
+| $ git ls-files        |列出Git檔案庫中的檔案清單|
 | $ git commit          |進入VI編輯訊息|
 | $ vi \<FILENAME>      |進入該檔案的VI編輯訊息|
 | $ vi .git/config      |進入.git中的設定檔的VI編輯訊息|
