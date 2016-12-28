@@ -53,7 +53,7 @@
 | $ git remote add \<REMOTENAME> URL or SSH     | 新增 遠端remote 連結  EX:$ git remote add origin \<URLFROMGITHUB> |
 | $ git pull \<REMOTENAME> \<BRANCHNAME>        | 收取Pull 遠端remote 的程式 EX: $ git pull origin master|
 | $ git remote -v                               | 檢視現有的 遠端remote 連結connections|
-| $ git push \<REMOTENAME> \<BRANCHNAME>        | 推送Push 電腦上的程式到 遠端remote  EX: $ git push origin master|
+| $ git push -u \<REMOTENAME> \<BRANCHNAME>        | 推送Push 電腦上的程式到 遠端remote  EX: $ git push -u origin master|
 | $ git push \<REMOTENAME> --delete \<BRANCHNAME>  |刪除 遠端remote 分支branch|
 
 ####Branch
