@@ -28,7 +28,9 @@
 | $ git status          |檢查 程式庫repository 中的修改 現況status|
 | $ git diff            |查看對檔案的修改|
 | $ git add \<FILENAME> |準備 提交commit 對於一個檔案的修改到tracked區|
-| $ git add .           |準備 提交commit 對於所有檔案的修改到tracked區|
+| $ git add .           |將新增的,被修改的檔案全部加入Git索引，到tracked區|
+| $ git add -A          |將新增的,被修改的及被刪除的檔案全部加入Git索引，到tracked區|
+| $ git add -u          |將被修改的及被刪除的檔案全部加入Git索引，到tracked區|
 | $ echo "\<FILENAME>" >> .gitignore       |將檔案列入忽略的檔案清單|
 | $ git commit -m "\<your commit message>" |不用進VI,在命令列提交commit(或儲存）您所準備好的修改並附上一個簡短的異動說明|
 | $ git log             |看commit內容|
@@ -80,6 +82,7 @@ Git 程式庫repositories 用 分支branches 來隔離進度。
 |指令|說明|
 | ------| ------ |
 | $ git merge \<BRANCHNAME>                        |Merge 分支branch 到目前的 分支branch|
+| $ git merge --no-ff \<BRANCHNAME>                |Merge 分支branch ,並留下合併的記錄,產生新commit節點|
 
 ####Reset
 回復檔案狀態。
