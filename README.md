@@ -13,6 +13,10 @@
 ####圖形操作介面的Git程式
 Git GUI, SmartGit, Source Tree, TortoiseGit
 
+####Git雲端檔案庫
+GitHub, Bitbucket, GitLab
+
+
 ####Git工作流程
 
 當開發者要建立一個開發專案時，要為這個專案建立一個目錄，以及使用git init指令建立一個這個專案的儲存庫（Repository ）。這個目錄可稱為是這個專案的工作目錄（Working Directory），開發專案所有的檔案都儲存在這個目錄下，而執行與專案相關的Git指令，也都是在工作目錄下執行。  
